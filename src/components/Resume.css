@@ -1,0 +1,72 @@
+.resume-container {
+  padding: 2rem 2.5rem;
+  max-width: 800px;
+  color: rgb(153, 153, 153);
+}
+
+.resume-container h1 {
+  font-size: 2.5rem;
+  color: rgb(230, 230, 230);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.resume-subtitle {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.resume-section {
+  margin-bottom: 2.5rem;
+}
+
+.resume-section h2 {
+  color: rgb(230, 230, 230);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.resume-item {
+  margin-bottom: 1.5rem;
+}
+
+.resume-item h3 {
+  color: rgb(230, 230, 230);
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.resume-item .company,
+.resume-item .institution,
+.resume-item .organization,
+.resume-item .award-detail {
+  color: rgb(153, 153, 153);
+  margin-bottom: 0.25rem;
+}
+
+.resume-item .date {
+  color: rgb(153, 153, 153);
+  font-size: 0.9rem;
+}
+
+/* Hover effects */
+.resume-item:hover h3 {
+  color: hsl(155, 75%, 60%);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 1.5rem;
+  }
+
+  .resume-container h1 {
+    font-size: 2rem;
+  }
+
+  .resume-section h2 {
+    font-size: 1.25rem;
+  }
+} 
