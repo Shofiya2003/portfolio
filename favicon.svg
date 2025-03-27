@@ -1,0 +1,17 @@
+<!-- Option 1: Minimalist "S" with gray background -->
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="8" fill="#262626"/>
+  <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="#E6E6E6" font-family="Inter, sans-serif" font-size="20" font-weight="700">S</text>
+</svg>
+
+<!-- Option 2: Code brackets with dark gray background -->
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="8" fill="#1A1A1A"/>
+  <path d="M13 10L8 16L13 22M19 10L24 16L19 22" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<!-- Option 3: Minimal square design -->
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="8" fill="#262626"/>
+  <rect x="8" y="8" width="16" height="16" rx="4" fill="#999999"/>
+</svg> 
